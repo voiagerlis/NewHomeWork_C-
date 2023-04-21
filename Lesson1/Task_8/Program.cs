@@ -20,4 +20,4 @@ if (result == 1)
            index = index + 2;
     }
 }
-    //Console.WriteLine("Введенное число не является четным");
+
