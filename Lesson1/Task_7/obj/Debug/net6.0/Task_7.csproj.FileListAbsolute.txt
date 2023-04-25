@@ -1,0 +1,15 @@
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.csproj.AssemblyReference.cache
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.AssemblyInfoInputs.cache
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.AssemblyInfo.cs
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.csproj.CoreCompileInputs.cache
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\bin\Debug\net6.0\Task_7.exe
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\bin\Debug\net6.0\Task_7.deps.json
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\bin\Debug\net6.0\Task_7.runtimeconfig.json
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\bin\Debug\net6.0\Task_7.dll
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\bin\Debug\net6.0\Task_7.pdb
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.dll
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\refint\Task_7.dll
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.pdb
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\Task_7.genruntimeconfig.cache
+D:\LessonC#\NewHomeWork_C-\Lesson1\Task_7\obj\Debug\net6.0\ref\Task_7.dll
