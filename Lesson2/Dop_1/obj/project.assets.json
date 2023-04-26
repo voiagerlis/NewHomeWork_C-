@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LessonC#\\NewHomeWork_C-\\Lesson2\\Dop_1\\Dop_1.csproj",
+      "projectUniqueName": "C:\\GeekBrain\\HomeWork_C#\\NewHomeWork_C-\\Lesson2\\Dop_1\\Dop_1.csproj",
       "projectName": "Dop_1",
-      "projectPath": "D:\\LessonC#\\NewHomeWork_C-\\Lesson2\\Dop_1\\Dop_1.csproj",
+      "projectPath": "C:\\GeekBrain\\HomeWork_C#\\NewHomeWork_C-\\Lesson2\\Dop_1\\Dop_1.csproj",
       "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-      "outputPath": "D:\\LessonC#\\NewHomeWork_C-\\Lesson2\\Dop_1\\obj\\",
+      "outputPath": "C:\\GeekBrain\\HomeWork_C#\\NewHomeWork_C-\\Lesson2\\Dop_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
