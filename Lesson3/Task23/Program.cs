@@ -6,6 +6,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 string result = "";
 
 for (int count = 1; count <= num; count++)
-   result = result +"," + Math.Pow(count, 3); 
+   result = result +"," + Math.Pow(count, 3); //собираю кубы чисел в строку
     
-   Console.WriteLine(result.Substring(1));
+   Console.WriteLine(result.Substring(1)); // первая запятая не красиво
