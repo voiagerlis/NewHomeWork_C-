@@ -1,0 +1,15 @@
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.csproj.AssemblyReference.cache
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.GeneratedMSBuildEditorConfig.editorconfig
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.AssemblyInfoInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.AssemblyInfo.cs
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.csproj.CoreCompileInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\bin\Debug\net6.0\Dop21.exe
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\bin\Debug\net6.0\Dop21.deps.json
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\bin\Debug\net6.0\Dop21.runtimeconfig.json
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\bin\Debug\net6.0\Dop21.dll
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\bin\Debug\net6.0\Dop21.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.dll
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\refint\Dop21.dll
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\Dop21.genruntimeconfig.cache
+D:\LessonC#\NewHomeWork_C#\Lesson3\Dop21\obj\Debug\net6.0\ref\Dop21.dll
