@@ -5,6 +5,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int [] mas_kor = new int [num*3];
 int mas_length = mas_kor.Length;
+double result = 0;
 int count = 0;
 if (num < 2 ) {Console.WriteLine("Введенное число меньше 2");}
 else
@@ -18,14 +19,15 @@ mas_kor[i] = Convert.ToInt32(Console.ReadLine()); i++;
 mas_kor[i] = Convert.ToInt32(Console.ReadLine()); i++;
 mas_kor[i] = Convert.ToInt32(Console.ReadLine());
 }
-   while (count < mas_length )
+   while (count < mas_length)
    {
-    //double result = Math.Pow(mas[count+1] - Math.Pow(mas[count] , 2)) + Math.Pow(mas[count+3] - Math.Pow(mas[count+2] , 2)) + Math.Pow(mas[count+5] - Math.Pow(mas[count+4] , 2));
-      Console.WriteLine($"Элемент массива = {mas_kor[count]}");
+      result = Math.Pow(mas_kor[count+1] - mas_kor[count],2)+ Math.Pow(mas_kor[count+3] - mas_kor[count+2],2) + Math.Pow(mas_kor[count+5] - mas_kor[count+4],2);
+      Console.WriteLine($"result = {result}");
+}      //Console.WriteLine($"Элемент массива = {mas_kor[count]}");
       count++;
    }
-   
-}
+   //Console.WriteLine($"result = {result}");
+//}
 
 
 
