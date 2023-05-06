@@ -20,7 +20,7 @@ else
         index = index * 10;    
     }
      
-     if ( num == one ) { Console.WriteLine($" число  = {one}, палиндром числа {num} "); }
-     else { Console.WriteLine($" число  = {one}, не является палиндром числа {num} "); }    
+     if ( num == one ) { Console.WriteLine($"ДА, число  = {one}, палиндром числа {num} "); }
+     else { Console.WriteLine($"НЕТ, число  = {one}, не является палиндром числа {num} "); }    
      
 } 
