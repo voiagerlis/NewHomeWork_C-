@@ -6,34 +6,34 @@
 
 Console.WriteLine("Введите целочисленное число отличное от нуля");
 int num = Convert.ToInt32(Console.ReadLine());
-int [] numArrey; //= new int [];
+int[] numArrey; //= new int [];
 
 /// Если число отрицательное привожу его к модулю
 num = Math.Abs(num);
 
 /// Функция заполнения массива цифр из числа
-int LeghtNum(int repNum)
+//int LeghtNum(int repNum)
+//{
+int tmpNum = 0;
+int index = 0;
+while (num > 10)
 {
-    int tmpNum = 0;
-    int index = 0;
-    while (repNum > 10)
-    {
-        numArrey [index] = repNum % 10;
-        repNum = repNum / 10;
-     index++;
-    }
+    numArrey[index] = num % 10;
+    num = num / 10;
     index++;
-    numArrey [index] = repNum; 
-    
-    //    Console.WriteLine($"tmp = {tmpNum}");
-    // Console.WriteLine($"rep = {repNum}");
-   
-    //tmpNum = tmpNum + repNum;
-    //return tmpNum;
 }
-int SumNumber (int [] arrayN)
-{
+index++;
+numArrey[index] = num;
 
-}
+//    Console.WriteLine($"tmp = {tmpNum}");
+// Console.WriteLine($"rep = {repNum}");
+
+//tmpNum = tmpNum + repNum;
+//return tmpNum;
+//}
+// int SumNumber (int [] arrayN)
+// {
+
+// }
 // int result = LeghtNum(num);
 // Console.WriteLine($"Сумма цифр в числе = {result}");
