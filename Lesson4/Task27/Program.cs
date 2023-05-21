@@ -3,37 +3,28 @@
 // 82 -> 10
 // 9012 -> 12
 //********************************************************************************
-
-Console.WriteLine("Введите целочисленное число отличное от нуля");
+Console.WriteLine("Введите целочисленное число");
 int num = Convert.ToInt32(Console.ReadLine());
-int[] numArrey; //= new int [];
 
 /// Если число отрицательное привожу его к модулю
 num = Math.Abs(num);
-
-/// Функция заполнения массива цифр из числа
-//int LeghtNum(int repNum)
-//{
-int tmpNum = 0;
-int index = 0;
-while (num > 10)
+if (num == 10)
 {
-    numArrey[index] = num % 10;
-    num = num / 10;
-    index++;
+    Console.WriteLine("Сумма цифр в числе = 1");
+    return;
 }
-index++;
-numArrey[index] = num;
+/// Функция подсчета сумм цифр в числе
+int LeghtNum(int repNum)
+{
+    int tmpNum = 0;
+    while (repNum > 10)
+    {
+        tmpNum = tmpNum + repNum % 10;
+        repNum = repNum / 10;
+    }
+    tmpNum = tmpNum + repNum;
+    return tmpNum;
+}
 
-//    Console.WriteLine($"tmp = {tmpNum}");
-// Console.WriteLine($"rep = {repNum}");
-
-//tmpNum = tmpNum + repNum;
-//return tmpNum;
-//}
-// int SumNumber (int [] arrayN)
-// {
-
-// }
-// int result = LeghtNum(num);
-// Console.WriteLine($"Сумма цифр в числе = {result}");
+int result = LeghtNum(num);
+Console.WriteLine($"Сумма цифр в числе = {result}");
