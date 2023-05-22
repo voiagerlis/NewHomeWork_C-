@@ -8,6 +8,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 /// Если число отрицательное привожу его к модулю
 num = Math.Abs(num);
+// Если 10 то сумма = 1
 if (num == 10)
 {
     Console.WriteLine("Сумма цифр в числе = 1");
