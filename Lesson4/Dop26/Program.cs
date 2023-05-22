@@ -22,12 +22,13 @@ int LeghtNum(decimal repNum)
     count++;
     if (repNum % 1 != 0)
     {
-        decimal doubleNum = repNum;
-        doubleNum = doubleNum % 1 - doubleNum ;
+        double i = 0.1;
+        double doubleNum = Convert.ToDouble(repNum);
+        doubleNum = doubleNum % 1  ;
         Console.WriteLine($" Дробное число = {doubleNum}");
-        while (doubleNum < 1)
+        while (doubleNum > 0)
         {
-            doubleNum = doubleNum * 10;
+            doubleNum = doubleNum % i;
             counter++;
             Console.WriteLine($" Дробное число = {doubleNum}");
         }
