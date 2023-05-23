@@ -26,5 +26,6 @@ int DegreeFun(int numF, int numD)
     }
     return result;
 }
+Console.Clear();
 int degreeNum = DegreeFun(footing, degree);
 Console.WriteLine($"Число - {footing} в степени - {degree} = {degreeNum}");

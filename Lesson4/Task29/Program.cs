@@ -4,6 +4,7 @@
 
 // 6, 1, 33 -> [6, 1, 33]
 int[] arrayNum = new int[8];
+Console.Clear();
 Console.WriteLine("Заполните целочисленный массив из восьми злементов");
 int num = 0;
 string str = "";
