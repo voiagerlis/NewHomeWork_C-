@@ -26,7 +26,6 @@ int FindSums(int[] array)
         }
     return result;
 }
-
 Console.Clear();
 int[] array = new int[4];
 FillArray(array);
