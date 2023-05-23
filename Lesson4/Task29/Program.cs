@@ -14,7 +14,6 @@ for (int i = 0; i < 8; i++)
 }
 for (int i = 0; i < 8; i++)
 {
-    str = str + ","+ arrayNum[i];
-       //Console.WriteLine($"Сумма цифр в числе = {arrayNum[i]}");
+    str = str + "," + arrayNum[i];
 }
-Console.WriteLine($"Ваш массив {str}");
+Console.WriteLine($"Ваш массив "+ str.Substring(1));
