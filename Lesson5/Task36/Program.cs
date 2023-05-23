@@ -3,13 +3,11 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-
 void FillArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(-99, 99);
 }
-
 void PrintArray(int[] array)
 {
     foreach (int item in array)
@@ -27,7 +25,6 @@ int FindSums(int[] array)
     }
     return result;
 }
-
 Console.Clear();
 int[] array = new int[6];
 FillArray(array);
@@ -35,5 +32,4 @@ System.Console.WriteLine("Сгенерировался такой массив")
 PrintArray(array);
 int rez = FindSums(array);
 System.Console.WriteLine(
-    $"Сумма чисел элементов массива находящаяся на нечетных позициях равна {rez}"
-);
+    $"Сумма чисел элементов массива находящаяся на нечетных позициях равна {rez}");
