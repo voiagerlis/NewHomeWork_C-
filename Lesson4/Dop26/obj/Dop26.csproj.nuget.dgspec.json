@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Dop26\\Dop26.csproj": {}
+    "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Dop26\\Dop26.csproj": {}
   },
   "projects": {
-    "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Dop26\\Dop26.csproj": {
+    "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Dop26\\Dop26.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Dop26\\Dop26.csproj",
+        "projectUniqueName": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Dop26\\Dop26.csproj",
         "projectName": "Dop26",
-        "projectPath": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Dop26\\Dop26.csproj",
+        "projectPath": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Dop26\\Dop26.csproj",
         "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-        "outputPath": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Dop26\\obj\\",
+        "outputPath": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Dop26\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
