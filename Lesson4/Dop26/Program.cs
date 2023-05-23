@@ -34,7 +34,7 @@ int LeghtNum(decimal repNum)
     res = count + counter;
     return res;
 }
-Console.Clear();
+//Console.Clear();
 Console.WriteLine("Введите число");
 decimal num = Convert.ToDecimal(Console.ReadLine());
 int resalt = 0;
