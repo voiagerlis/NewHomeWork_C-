@@ -1,0 +1,15 @@
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\bin\Debug\net6.0\Dop_Stat.exe
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\bin\Debug\net6.0\Dop_Stat.deps.json
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\bin\Debug\net6.0\Dop_Stat.runtimeconfig.json
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\bin\Debug\net6.0\Dop_Stat.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\bin\Debug\net6.0\Dop_Stat.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.csproj.AssemblyReference.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.GeneratedMSBuildEditorConfig.editorconfig
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.AssemblyInfoInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.AssemblyInfo.cs
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.csproj.CoreCompileInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\refint\Dop_Stat.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\Dop_Stat.genruntimeconfig.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\Dop_Stat\obj\Debug\net6.0\ref\Dop_Stat.dll
