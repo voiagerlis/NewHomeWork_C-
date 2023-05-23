@@ -8,10 +8,9 @@
 
 int LeghtNum(decimal repNum)
 {
-    int res = 0;
-    int count = 0;
-    int counter = 0;
+    int res = 0, count = 0, counter = 0; 
     decimal integerNum = repNum;
+    // подсчитываю цифры целой части числа
     integerNum = integerNum - (integerNum % 1);
     int intNum = Convert.ToInt32(integerNum);
     while (intNum > 10)
@@ -20,27 +19,26 @@ int LeghtNum(decimal repNum)
         count++;
     }
     count++;
+    // если число вещественное подсчитываю количество цифр после запятой
     if (repNum % 1 != 0)
     {
-        double i = 0.1;
-        double doubleNum = Convert.ToDouble(repNum);
-        doubleNum = doubleNum % 1  ;
-        Console.WriteLine($" Дробное число = {doubleNum}");
-        while (doubleNum > 0)
+        decimal doubleNum = repNum;
+        while (doubleNum != 0)
         {
-            doubleNum = doubleNum % i;
+            doubleNum = (doubleNum * 10) % 10;
             counter++;
-            Console.WriteLine($" Дробное число = {doubleNum}");
         }
+        counter--;
     }
+    // Ссумирую результат целого и дробной части числа
     res = count + counter;
     return res;
 }
-
-
+Console.Clear();
 Console.WriteLine("Введите число");
 decimal num = Convert.ToDecimal(Console.ReadLine());
 int resalt = 0;
+
 // привожу к модулю
 num = Math.Abs(num);
 
