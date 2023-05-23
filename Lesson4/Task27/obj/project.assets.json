@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Task27\\Task27.csproj",
+      "projectUniqueName": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Task27\\Task27.csproj",
       "projectName": "Task27",
-      "projectPath": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Task27\\Task27.csproj",
+      "projectPath": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Task27\\Task27.csproj",
       "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-      "outputPath": "C:\\GeekBrain\\NewHomeWork_C-\\Lesson4\\Task27\\obj\\",
+      "outputPath": "D:\\LessonC#\\NewHomeWork_C#\\Lesson4\\Task27\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
