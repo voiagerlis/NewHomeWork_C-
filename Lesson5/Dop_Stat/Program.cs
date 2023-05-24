@@ -39,9 +39,42 @@ int[] FindSums(int[] array)
     int[] result = { numMax, indxMax, numMin, indxMin, sumNum, lengthSum };
     return result;
 }
+int SortArray(int[] aNum, int indMin, int indMax)
+{
+    int pivot = indMin - 1;
+    int tmpNum = 0;
+    for (int i = indMin; i < indMax; i++)
+    {
+        if (aNum[i] < aNum[indMax])
+        {
+            pivot++;
+            tmpNum = aNum[pivot];
+            aNum[pivot] = aNum[i];
+            aNum[i] = tmpNum;
+        }
+    }
+    pivot++;
+    tmpNum = aNum[pivot];
+    aNum[pivot] = aNum[indMax];
+    aNum[indMax] = tmpNum;
+    return pivot;
+}
 
+int[] FastSort(int[] aNum, int indMin, int indMax)
+{
+    if (indMin >= indMax)
+    {
+        return aNum;
+    }
+    int pivot = SortArray(aNum, indMin, indMax);
+    FastSort(aNum, indMin, pivot - 1);
+    FastSort(aNum, pivot + 1, indMax);
+    return aNum;
+}
 Console.Clear();
-int[] array = new int[9];
+Console.WriteLine("Введите целочисленное число");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[n];
 FillArray(array);
 System.Console.WriteLine("Сгенерировался такой массив");
 PrintArray(array);
@@ -53,3 +86,18 @@ System.Console.WriteLine(
 System.Console.WriteLine(
     $"Сумма чисел массива = {rez[4]}, количество элементов = {rez[5]}, среднее арифметическое ={medium}"
 );
+int[] median = FastSort(array, 0, array.Length - 1);
+System.Console.WriteLine("");
+if (array.Length % 2 == 0)
+{
+    System.Console.WriteLine(
+        $"Медианна массива число = {median[array.Length / 2]}, с индексом = {array.Length / 2}"
+    );
+}
+else
+{
+    System.Console.WriteLine(
+        $"Медианна массива число = {median[(array.Length + 1) / 2]}, с индексом = {(array.Length + 1) / 2}"
+    );
+}
+PrintArray(median);
