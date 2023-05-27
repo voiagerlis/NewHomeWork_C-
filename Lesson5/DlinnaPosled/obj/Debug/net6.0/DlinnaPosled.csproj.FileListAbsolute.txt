@@ -1,0 +1,15 @@
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.csproj.AssemblyReference.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.GeneratedMSBuildEditorConfig.editorconfig
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.AssemblyInfoInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.AssemblyInfo.cs
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.csproj.CoreCompileInputs.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\bin\Debug\net6.0\DlinnaPosled.exe
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\bin\Debug\net6.0\DlinnaPosled.deps.json
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\bin\Debug\net6.0\DlinnaPosled.runtimeconfig.json
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\bin\Debug\net6.0\DlinnaPosled.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\bin\Debug\net6.0\DlinnaPosled.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\refint\DlinnaPosled.dll
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.pdb
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\DlinnaPosled.genruntimeconfig.cache
+D:\LessonC#\NewHomeWork_C#\Lesson5\DlinnaPosled\obj\Debug\net6.0\ref\DlinnaPosled.dll
