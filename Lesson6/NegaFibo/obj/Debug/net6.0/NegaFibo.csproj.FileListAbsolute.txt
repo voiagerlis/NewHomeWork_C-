@@ -1,0 +1,15 @@
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\bin\Debug\net6.0\NegaFibo.exe
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\bin\Debug\net6.0\NegaFibo.deps.json
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\bin\Debug\net6.0\NegaFibo.runtimeconfig.json
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\bin\Debug\net6.0\NegaFibo.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\bin\Debug\net6.0\NegaFibo.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.csproj.AssemblyReference.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.AssemblyInfoInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.AssemblyInfo.cs
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.csproj.CoreCompileInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\refint\NegaFibo.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\NegaFibo.genruntimeconfig.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\NegaFibo\obj\Debug\net6.0\ref\NegaFibo.dll
