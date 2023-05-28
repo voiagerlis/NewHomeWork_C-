@@ -1,0 +1,15 @@
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.csproj.AssemblyReference.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.AssemblyInfoInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.AssemblyInfo.cs
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.csproj.CoreCompileInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\bin\Debug\net6.0\Hard.exe
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\bin\Debug\net6.0\Hard.deps.json
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\bin\Debug\net6.0\Hard.runtimeconfig.json
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\bin\Debug\net6.0\Hard.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\bin\Debug\net6.0\Hard.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\refint\Hard.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\Hard.genruntimeconfig.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson6\Hard\obj\Debug\net6.0\ref\Hard.dll
