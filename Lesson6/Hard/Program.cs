@@ -22,10 +22,11 @@ bool TryFolse(int a, int b, int c)
     return i;
 }
 
-decimal [] ParamTriangle(int a, int b, int c)
-{
+ decimal [] ParamTriangle(int a, int b, int c)
+ {
 
-}
+ }
+ 
 bool i = TryFolse(a, b, c);
 if (i == true)
 {
