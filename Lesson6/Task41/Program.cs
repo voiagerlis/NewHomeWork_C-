@@ -29,4 +29,4 @@ Console.Clear();
 Console.Write("Ваш массива чисел: " );
 PrintArray(array);
 int cou = Counting(array);
-Console.WriteLine($"количество чисел более нуля:- {cou} " );
+Console.WriteLine($"количество чисел более нуля: {cou} " );
