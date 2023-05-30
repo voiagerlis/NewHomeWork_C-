@@ -33,21 +33,17 @@ double[] ParamTriangle(double a, double b, double c)
     double corner3 = Math.Round((Math.Acos((b * b + c * c - a * a) / (2 * b * c)) * 57.2958), 2);
 
     double type = 0;
-
-    if (a == b || a == c || b == c)
-    {
-        type = 1;
-        //Console.Write($"первый прошел ");
-    }
-    else if (a == b && a == c && b == c)
+    if (a == b && b == c)
     {
         type = 0;
-        //Console.Write($"второй прошел ");
+    }
+    else if ((a == b && a == c) || (b == a && b == c) || (c == a && c == b))
+    {
+        type = 1;
     }
     else if (a != b && a != c && b != c)
     {
         type = 2;
-        Console.Write($"третьий прошел ");
     }
     arVal[0] = perimetr;
     arVal[1] = square;
@@ -62,7 +58,6 @@ double[] ParamTriangle(double a, double b, double c)
 bool i = TryFolse(a, b, c);
 if (i == true)
 {
-    Console.WriteLine($"данный треугольни");
     double[] arrayValues = new double[6];
     arrayValues = ParamTriangle(a, b, c);
     string type = string.Empty;
