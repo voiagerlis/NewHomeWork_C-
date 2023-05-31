@@ -33,16 +33,32 @@ double[] ArMean(int[,] array, int num)
 {
     double[] helper = new double[num];
     double sum = 0;
+    int count = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        sum = 0;
-        for (int j = 0; j < array.GetLength(1); j++)
+        if (count < array.GetLength(1))
         {
-            sum = sum + array[j, i];
+            Console.WriteLine(array[i, count]);
+            sum = array[i, count];
         }
-        sum = sum / array.GetLength(1);
-        helper[i] = Math.Round(sum,2);
+        else
+        {
+            count++;
+            helper[i] = sum;
+            sum = 0;
+        }
     }
+    // {
+    //     sum = 0;
+    //     for (int j = 0; j < array.GetLength(1); j++)
+    //     {
+    //         sum = sum + array[j, i];
+
+    //     }
+    //     sum = sum / array.GetLength(1);
+    //     helper[i] = Math.Round(sum, 2);
+    // }
+
     return helper;
 }
 
