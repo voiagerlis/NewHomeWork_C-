@@ -31,34 +31,17 @@ void PrA(double[] array)
 
 double[] ArMean(int[,] array, int num)
 {
+    int endRows = array.GetLength(0);
+    int endCols = array.GetLength(1);
     double[] helper = new double[num];
-    double sum = 0;
-    int count = 0;
-    for (int i = 0; i < array.GetLength(0); i++)
+
+    for (int i = 0; i < endCols; i++)
     {
-        if (count < array.GetLength(1))
-        {
-            Console.WriteLine(array[i, count]);
-            sum = array[i, count];
-        }
-        else
-        {
-            count++;
-            helper[i] = sum;
-            sum = 0;
-        }
+      double  sum = 0;
+        for (int j = 0; j < endRows; j++)
+            sum = sum + array[j, i];
+        helper[i] = Math.Round(sum / endRows, 2);
     }
-    // {
-    //     sum = 0;
-    //     for (int j = 0; j < array.GetLength(1); j++)
-    //     {
-    //         sum = sum + array[j, i];
-
-    //     }
-    //     sum = sum / array.GetLength(1);
-    //     helper[i] = Math.Round(sum, 2);
-    // }
-
     return helper;
 }
 
