@@ -53,13 +53,6 @@ void PrintArray(int[,] array)
         System.Console.WriteLine();
     }
 }
-void PrA(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-
-        System.Console.Write($"{array[i], 3}     ");
-    System.Console.WriteLine();
-}
 int[] WriteArrayTmp(int[,] array, int num)
 {
     int[] arTmp = new int[num];
@@ -96,7 +89,6 @@ FillArray(array);
 PrintArray(array);
 arNum = WriteArrayTmp(array, num);
 arNum = FastSort(arNum, 0, num - 1);
-array = ReadArrayTmp(arNum,rows,cols);
-//PrA(arNum);
+array = ReadArrayTmp(arNum, rows, cols);
 Console.WriteLine("**** Отсортированный ***********");
 PrintArray(array);
