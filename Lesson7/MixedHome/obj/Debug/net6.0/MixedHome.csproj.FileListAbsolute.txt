@@ -1,0 +1,15 @@
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\bin\Debug\net6.0\MixedHome.exe
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\bin\Debug\net6.0\MixedHome.deps.json
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\bin\Debug\net6.0\MixedHome.runtimeconfig.json
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\bin\Debug\net6.0\MixedHome.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\bin\Debug\net6.0\MixedHome.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.csproj.AssemblyReference.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.AssemblyInfoInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.AssemblyInfo.cs
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.csproj.CoreCompileInputs.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\refint\MixedHome.dll
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.pdb
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\MixedHome.genruntimeconfig.cache
+C:\GeekBrain\NewHomeWork_C-\Lesson7\MixedHome\obj\Debug\net6.0\ref\MixedHome.dll
