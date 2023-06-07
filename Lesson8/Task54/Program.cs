@@ -13,52 +13,46 @@ void PrintArray(int[,] array)
         System.Console.WriteLine();
     }
 }
-int SortArray(int[] aNum, int indMin, int indMax)
+void PrintArrayNegativ(int[,] array)
 {
-    int pivot = indMin - 1;
-    int tmpNum = 0;
-    for (int i = indMin; i < indMax; i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        if (aNum[i] < aNum[indMax])
-        {
-            pivot++;
-            tmpNum = aNum[pivot];
-            aNum[pivot] = aNum[i];
-            aNum[i] = tmpNum;
-        }
+        for (int j = array.GetLength(1) - 1; j >= 0; j--)
+            System.Console.Write($"{array[i, j], 3}     ");
+        System.Console.WriteLine();
     }
-    pivot++;
-    tmpNum = aNum[pivot];
-    aNum[pivot] = aNum[indMax];
-    aNum[indMax] = tmpNum;
-    return pivot;
 }
 
-int[] FastSort(int[] aNum, int indMin, int indMax)
+int[] Sort(int[] A)
 {
-    if (indMin >= indMax)
-    {
-        return aNum;
-    }
-    int pivot = SortArray(aNum, indMin, indMax);
-    FastSort(aNum, indMin, pivot - 1);
-    FastSort(aNum, pivot + 1, indMax);
-    return aNum;
+    for (int i = 0; i < A.Length-1; i++)
+        for (int j = i; j >= 0; j--)
+            if (A[j] > A[j + 1])
+            {
+                int t = A[j];
+                A[j] = A[j + 1];
+                A[j + 1] = t;
+            }
+
+    return A;
 }
 int[,] SArray(int[,] ar, int num)
 {
     int[] arRow = new int[num];
-    int[] helper = new int[num];
+    int[] hel = new int[num];
+    int[,] helpArray = new int[ar.GetLength(0), ar.GetLength(1)];
     int count = 0;
     for (int i = 0; i < ar.GetLength(0); i++)
+    {
         for (int j = 0; j < ar.GetLongLength(1); j++)
-            for (int p = i; p < ar.GetLongLength(1); p++)
-                arRow[p] = ar[count, p];
-    helper = FastSort(arRow, count, num - 1);
-    for (int z = count; z < ar.GetLongLength(1); z++)
-        ar[count, z] = helper[z];
-    count++;
-    return ar;
+            arRow[j] = ar[i, j];
+        hel = Sort(arRow);
+        for (int z = 0; z < ar.GetLongLength(1); z++)
+            helpArray[count, z] = hel[z];
+        count++;
+    }
+
+    return helpArray;
 }
 
 Console.Clear();
@@ -73,4 +67,4 @@ FillArray(array);
 PrintArray(array);
 arNum = SArray(array, cols);
 Console.WriteLine("****** отсортирован *************");
-PrintArray(arNum);
+PrintArrayNegativ(arNum);
