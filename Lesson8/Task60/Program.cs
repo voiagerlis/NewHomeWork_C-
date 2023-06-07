@@ -6,31 +6,48 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-int Ran()
+int[] Rand(int[] helper)
 {
-    int rand = new Random().Next(0, 9);
-    return rand;
+    bool[] flag = new bool[helper.Length];
+    for (int i = 0; i < helper.Length; i++)
+        flag[i] = false;
+    for (int j = 0; j < helper.Length; j++)
+    {
+        int n = new Random().Next(0, helper.Length);
+        int m = new Random().Next(0, helper.Length);
+        if (flag[n] != true && flag[m] != true)
+        {
+            int tmp = helper[n];
+            helper[n] = helper[m];
+            helper[m] = tmp;
+            flag[n] = true;
+            flag[m] = true;
+
+        }
+    }
+    return helper;
 }
-int FillNum(int [,,] array,int size, int count)
+void FillRang(int[] array)
 {
-    int[] helpArray = new int[size];
-    int randN = Ran();
-    for (int i = 0; i < helpArray.Length; i++)
-        if (randN != helpArray[i])
-            helpArray[count] = randN;
-        else
-            Ran();
-    return randN;
+    int count = 10;
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = count;
+        count++;
+    }
 }
-void FillArray(int[,,] array, int size)
+void FillArray(int[,,] array, int[] helper)
 {
-    int rand = 0;
     int count = 0;
     for (int i = 0; i < array.GetLength(0); i++)
         for (int j = 0; j < array.GetLength(1); j++)
-            for (int p = 0; p < array.GetLength(2); p++)
-                array[i, j, p] = FillNum(size, count);
-    count++;
+            for (int n = 0; n < array.GetLength(2); n++)
+            {
+                array[i, j, n] = helper[count];
+                count++;
+            }
+
+
 }
 void PrintArray(int[,,] array)
 {
@@ -38,15 +55,17 @@ void PrintArray(int[,,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
             for (int p = 0; p < array.GetLength(2); p++)
-                System.Console.Write($"{array[i, j, p], 3}     ");
+                System.Console.Write($"{array[i, j, p],3}, ({i},{j},{p})     ");
         System.Console.WriteLine();
     }
 }
-
+  
 Console.Clear();
 Console.WriteLine("Задайте размерность массивов");
 int num = Convert.ToInt32(Console.ReadLine());
-int sizeHelper = num * num * num;
+int[] helper = new int[(num * num * num)];
 int[,,] matrix = new int[num, num, num];
-FillArray(matrix, sizeHelper);
+FillRang(helper);
+helper = Rand(helper);
+FillArray(matrix, helper);
 PrintArray(matrix);
