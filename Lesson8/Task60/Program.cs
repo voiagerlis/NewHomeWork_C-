@@ -6,20 +6,12 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-// bool ChekChek(int[] ar, int n)
-// {
-//     bool flag = false;
-//     for (int i = 0; i < ar.Length; i++)
-//         if (n == ar[i])
-//             flag = true;
-//     return flag;
-// }
 int Ran()
 {
     int rand = new Random().Next(0, 9);
     return rand;
 }
-int FillNum(int size, int count)
+int FillNum(int [,,] array,int size, int count)
 {
     int[] helpArray = new int[size];
     int randN = Ran();
