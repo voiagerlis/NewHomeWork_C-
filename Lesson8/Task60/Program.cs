@@ -55,7 +55,7 @@ void PrintArray(int[,,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
             for (int p = 0; p < array.GetLength(2); p++)
-                System.Console.Write($"{array[i, j, p],3}, ({i},{j},{p})     ");
+                System.Console.Write($"{array[i, j, p],3} ({i},{j},{p})     ");
         System.Console.WriteLine();
     }
 }
