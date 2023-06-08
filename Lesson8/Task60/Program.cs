@@ -6,24 +6,14 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-int[] Rand(int[] helper)
+int[] Mixed(int[] helper)
 {
-    bool[] flag = new bool[helper.Length];
-    for (int i = 0; i < helper.Length; i++)
-        flag[i] = false;
-    for (int j = 0; j < helper.Length; j++)
+    for (int i = helper.Length - 1; i >= 0; i--)
     {
-        int n = new Random().Next(0, helper.Length);
-        int m = new Random().Next(0, helper.Length);
-        if (flag[n] != true && flag[m] != true)
-        {
-            int tmp = helper[n];
-            helper[n] = helper[m];
-            helper[m] = tmp;
-            flag[n] = true;
-            flag[m] = true;
-
-        }
+        int n = new Random().Next(0, helper.Length - 1);
+        int tmp = helper[n];
+        helper[n] = helper[i];
+        helper[i] = tmp;
     }
     return helper;
 }
@@ -46,8 +36,6 @@ void FillArray(int[,,] array, int[] helper)
                 array[i, j, n] = helper[count];
                 count++;
             }
-
-
 }
 void PrintArray(int[,,] array)
 {
@@ -55,17 +43,17 @@ void PrintArray(int[,,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
             for (int p = 0; p < array.GetLength(2); p++)
-                System.Console.Write($"{array[i, j, p],3} ({i},{j},{p})     ");
+                System.Console.Write($"{array[i, j, p], 3} ({i},{j},{p})     ");
         System.Console.WriteLine();
     }
 }
-  
+
 Console.Clear();
 Console.WriteLine("Задайте размерность массивов");
 int num = Convert.ToInt32(Console.ReadLine());
-int[] helper = new int[(num * num * num)];
+int[] helper = new int[90];
 int[,,] matrix = new int[num, num, num];
 FillRang(helper);
-helper = Rand(helper);
+helper = Mixed(helper);
 FillArray(matrix, helper);
 PrintArray(matrix);
